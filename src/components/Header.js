@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { connect } from "react-redux";
+import { addFeature, removeFeature } from "../actions";
+
 const Header = props => {
   return (
     <>
@@ -13,3 +16,25 @@ const Header = props => {
 };
 
 export default Header;
+
+// const mapStateToProps = state => {
+//   return {
+//     // additionalPrice: state.initialReducer.additionalPrice,
+//     car: state.initialReducer.car,
+//     // price: state.initialReducer.car.price,
+//     // name: state.initialReducer.car.name,
+//     // image: state.initialReducer.car.image,
+//     // features: state.initialReducer.car.features,
+//     // additionalFeatures: state.initialReducer.additionalFeatures,
+//     // id: state.initialReducer.additionalFeatures.id,
+//     // name: state.initialReducer.additionalFeatures.name,
+//     // price: state.initialReducer.additionalFeatures.price
+//   };
+// };
+
+// const mapDispatchToProps = { addFeature, removeFeature };
+
+// export default connect(
+//   mapStateToProps,
+//   mapDispatchToProps
+// )(Header);
