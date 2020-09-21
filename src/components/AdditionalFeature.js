@@ -1,3 +1,5 @@
+//Step 6 - Add onClick to buttons using the action creator props and item props 'feature'
+
 import React from 'react';
 
 const AdditionalFeature = props => {

@@ -1,15 +1,8 @@
-import React, { useState, useReducer } from "react";
-// import { initialState, initialReducer } from "../reducers/titleReducer";
+import React from "react";
 
 import AddedFeature from './AddedFeature';
 
-import { connect } from "react-redux";
-import { addFeature, removeFeature } from "../actions";
-
 const AddedFeatures = props => {
-
-  // const [state, dispatch] = useReducer(initialReducer, initialState);
-  // console.log(state);
 
   return (
     <div className="content">
@@ -28,25 +21,3 @@ const AddedFeatures = props => {
 };
 
 export default AddedFeatures;
-
-// const mapStateToProps = state => {
-//   return {
-//     additionalPrice: state.initialReducer.additionalPrice,
-//     car: state.initialReducer.car,
-//     price: state.initialReducer.car.price,
-//     name: state.initialReducer.car.name,
-//     image: state.initialReducer.car.image,
-//     features: state.initialReducer.car.features,
-//     additionalFeatures: state.initialReducer.additionalFeatures,
-//     id: state.initialReducer.additionalFeatures.id,
-//     name: state.initialReducer.additionalFeatures.name,
-//     price: state.initialReducer.additionalFeatures.price
-//   };
-// };
-
-// const mapDispatchToProps = { addFeature, removeFeature };
-
-// export default connect(
-//   mapStateToProps,
-//   mapDispatchToProps
-// )(AddedFeatures);

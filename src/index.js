@@ -1,3 +1,5 @@
+//Step 1 - import and set up provider, store/createStore in index.js. Import reducer here.
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';

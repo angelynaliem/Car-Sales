@@ -1,3 +1,5 @@
+//Step 2 - create reducer with initialState. Import action creators here.
+
 import { REMOVE_FEATURE, ADD_FEATURE } from "../actions";
 
 export const initialState = {
